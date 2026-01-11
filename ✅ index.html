@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>yours - YouTube Publisher</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<header>
+  <h1>yours – YouTube Video Publisher</h1>
+</header>
+
+<p>
+  This application allows users to publish videos to YouTube using the
+  YouTube Data API v3 after Google authorization.
+</p>
+
+<nav>
+  <a href="index.html">Home</a> |
+  <a href="privacy.html">Privacy Policy</a> |
+  <a href="terms.html">Terms & Conditions</a>
+</nav>
+
+<hr>
+
+<p>
+  To continue, please sign in with your Google account.
+</p>
+
+<button onclick="login()">Sign in with Google</button>
+
+<script>
+function login() {
+  window.location.href = "/auth/google";
+}
+</script>
+
+</body>
+</html>
